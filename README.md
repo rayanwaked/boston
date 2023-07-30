@@ -23,7 +23,7 @@
 ## Important
 If you'd like to test the functionality of this app using the repository (not the official app), you will need to get an API key from OpenAI. Once you have your key, replace "SK-YOUR-KEY-HERE" in these two files:
 * Boston > Core > Functionality > Chat > ChatHandler:14
-* Boston > Core > Functionality > SiriGPT > Handlers:26
+* Boston > Extension > Siri > Handlers:26
 
 
 ## Introduction
