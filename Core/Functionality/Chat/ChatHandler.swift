@@ -11,6 +11,7 @@ import CoreData
 import SwiftUI
 
 class ChatFunctionality {
+    // Update "SK-YOUR-API-KEY" with your OpenAI API key.
     let openAI = OpenAI(apiToken: "SK-YOUR-API-KEY")
     
     //MARK: Set Model Type Based On Subscription
