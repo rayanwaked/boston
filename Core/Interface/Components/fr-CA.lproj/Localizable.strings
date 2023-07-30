@@ -1,0 +1,58 @@
+/*
+  Localizable.strings
+  Boston
+
+  Created by Rayan Waked on 2/27/23.
+  
+*/
+
+//MARK: Name
+"Boston" = "Boston";
+
+//MARK: Prepare
+"Prepare" = "Prepare";
+
+"Before setting up Boston, make sure you have the Shortcuts app installed." = "Before setting up Boston, make sure you have the Shortcuts app installed.";
+
+"Open Shortcuts in the App Store" = "Open Shortcuts in the App Store";
+
+//MARK: Connect
+"Connect" = "Connect";
+
+"Once you've verified Shortcuts is installed, press the button below to add Boston to your Shortcuts." = "Once you've verified Shortcuts is installed, press the button below to add Boston to your Shortcuts.";
+
+"To add Boston to your Shortcuts, click the button below and following the instructions." = "To add Boston to your Shortcuts, click the button below and following the instructions.";
+
+"Add Boston to Your Shortcuts" = "Add Boston to Your Shortcuts";
+
+//MARK: Instructions
+"Instructions" = "Instructions";
+
+"Allow 30-seconds for the Siri Shortcut to finish setting up in the background." = "Allow 30-seconds for the Siri Shortcut to finish setting up in the background.";
+
+"Activate Siri by saying 'Hey Siri', or holding down the power button. When Siri is ready, say or type 'Boston'." = "Activate Siri by saying 'Hey Siri', or holding down the power button. When Siri is ready, say or type 'Boston'.";
+
+"When Siri says 'What would you like to ask Boston?', you are ready to ask anything!" = "When Siri says 'What would you like to ask Boston?', you are ready to ask anything!";
+
+//MARK: Contact
+"Contact" = "Contact";
+
+"If you are having issues setting up your app, or would like to reach out for any other reason, please send an email to **rayan@waked.dev**" = "If you are having issues setting up your app, or would like to reach out for any other reason, please send an email to **rayan@waked.dev**";
+
+"Email Developer" = "Email Developer";
+
+//MARK: Store
+"Models" = "Models";
+
+"Restore Purchases" = "Restore Purchases";
+
+"EULA Agreement" = "EULA Agreement";
+
+"Privacy Policy" = "Privacy Policy";
+
+"Upgrade Boston to get more powerful, personal, and detailed responses." = "Upgrade Boston to get more powerful, personal, and detailed responses.";
+
+//MARK: Chat
+"    Ask Boston a question" = "    Poser une question à Boston";
+
+"    Thinking..." = "    Pensée...";

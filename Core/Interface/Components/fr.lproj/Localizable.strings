@@ -1,0 +1,58 @@
+/*
+  Localizable.strings
+  Boston
+
+  Created by Rayan Waked on 2/27/23.
+  
+*/
+
+//MARK: Name
+"Boston" = "Boston";
+
+//MARK: Prepare
+"Prepare" = "Préparation";
+
+"Before setting up Boston, make sure you have the Shortcuts app installed." = "Avant de configurer Boston, assurez-vous d'avoir installé l'application Raccourcis.";
+
+"Open Shortcuts in the App Store" = "Ouvrir Raccourcis dans l'App Store";
+
+//MARK: Connect
+"Connect" = "Connexion";
+
+"Once you've verified Shortcuts is installed, press the button below to add Boston to your Shortcuts." = "Une fois que vous avez vérifié que l'application Raccourcis est installée, appuyez sur le bouton ci-dessous pour ajouter Boston à vos Raccourcis.";
+
+"To add Boston to your Shortcuts, click the button below and following the instructions." = "Pour ajouter Boston à vos Raccourcis, cliquez sur le bouton ci-dessous et suivez les instructions.";
+
+"Add Boston to Your Shortcuts" = "Ajouter Boston à vos Raccourcis";
+
+//MARK: Instructions
+"Instructions" = "Instructions";
+
+"Allow 30-seconds for the Siri Shortcut to finish setting up in the background." = "Laissez 30 secondes à la fonctionnalité de raccourci Siri pour terminer l'installation en arrière-plan.";
+
+"Activate Siri by saying 'Hey Siri', or holding down the power button. When Siri is ready, say or type 'Boston'." = "Activez Siri en disant 'Dis Siri' ou en appuyant sur le bouton d'alimentation. Lorsque Siri est prêt, dites ou tapez 'Boston'.";
+
+"When Siri says 'What would you like to ask Boston?', you are ready to ask anything!" = "Lorsque Siri dit 'Que voulez-vous demander à Boston ?', vous pouvez poser toutes vos questions !";
+
+//MARK: Contact
+"Contact" = "Contacter";
+
+"If you are having issues setting up your app, or would like to reach out for any other reason, please send an email to **rayan@waked.dev**" = "Si vous rencontrez des problèmes lors de la configuration de l'application, ou si vous souhaitez nous contacter pour toute autre raison, envoyez un e-mail à rayan@waked.dev";
+
+"Email Developer" = "Envoyer un e-mail au développeur";
+
+//MARK: Store
+"Models" = "Modèles";
+
+"Restore Purchases" = "Restaurer les achats";
+
+"EULA Agreement" = "Contrat de licence utilisateur final";
+
+"Privacy Policy" = "Politique de confidentialité";
+
+"Upgrade Boston to get more powerful, personal, and detailed responses." = "Passez à la version supérieure de Boston pour obtenir des réponses plus puissantes, plus personnelles et plus détaillées.";
+
+//MARK: Chat
+"    Ask Boston a question" = "    Poser une question à Boston";
+
+"    Thinking..." = "    Pensée...";

@@ -1,0 +1,58 @@
+/* 
+  Localizable.strings
+  Boston
+
+  Created by Rayan Waked on 2/27/23.
+  
+*/
+
+//MARK: Name
+"Boston" = "بوسطن";
+
+//MARK: Prepare
+"Prepare" = "إعداد";
+
+"Before setting up Boston, make sure you have the Shortcuts app installed." = "قبل إعداد بوسطن، تأكد من تثبيت تطبيق الاختصارات.";
+
+"Open Shortcuts in the App Store" = "افتح تطبيق الاختصارات في متجر التطبيقات";
+
+//MARK: Connect
+"Connect" = "اتصال";
+
+"Once you've verified Shortcuts is installed, press the button below to add Boston to your Shortcuts." = "بعد التحقق من تثبيت تطبيق الاختصارات، اضغط على الزر أدناه لإضافة بوسطن إلى الاختصارات الخاصة بك.";
+
+"To add Boston to your Shortcuts, click the button below and following the instructions." = "لإضافة بوسطن إلى الاختصارات الخاصة بك، انقر فوق الزر أدناه واتبع التعليمات.";
+
+"Add Boston to Your Shortcuts" = "أضف بوسطن إلى الاختصارات الخاصة بك";
+
+//MARK: Instructions
+"Instructions" = "تعليمات";
+
+"Allow 30-seconds for the Siri Shortcut to finish setting up in the background." = "اسمح بمدة 30 ثانية لاستكمال إعداد اختصار Siri في الخلفية.";
+
+"Activate Siri by saying 'Hey Siri', or holding down the power button. When Siri is ready, say or type 'Boston'." = "قم بتنشيط Siri عن طريق قول 'هي Siri'، أو بالضغط على زر التشغيل. عندما تكون Siri جاهزة، قل أو اكتب 'بوسطن'.";
+
+"When Siri says 'What would you like to ask Boston?', you are ready to ask anything!" = "عندما تقول Siri 'ماذا تريد أن تسأل بوسطن؟'، أنت مستعد لطرح أي شيء!";
+
+//MARK: Contact
+"Contact" = "الاتصال";
+
+"If you are having issues setting up your app, or would like to reach out for any other reason, please send an email to **rayan@waked.dev**" = "إذا كان لديك مشكلات في إعداد التطبيق الخاص بك، أو إذا كنت ترغب في الاتصال لأي سبب آخر، يرجى إرسال بريد إلكتروني إلى rayan@waked.dev";
+
+"Email Developer" = "راسل المطور";
+
+//MARK: Store
+"Models" = "النماذج";
+
+"Restore Purchases" = "استعادة المشتريات";
+
+"EULA Agreement" = "اتفاقية EULA";
+
+"Privacy Policy" = "سياسة الخصوصية";
+
+"Upgrade Boston to get more powerful, personal, and detailed responses." = "ترقية بوسطن للحصول على ردود أكثر قوة وشخصية وتفصيلية.";
+
+//MARK: الدردشة
+"    Ask Boston a question" = "    اسأل بوسطن سؤالًا";
+
+"    Thinking..." = "    ...التفكير";

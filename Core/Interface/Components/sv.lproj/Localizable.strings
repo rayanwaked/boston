@@ -1,0 +1,58 @@
+/*
+  Localizable.strings
+  Boston
+
+  Created by Rayan Waked on 2/27/23.
+  
+*/
+
+//MARK: Name
+"Boston" = "Boston";
+
+//MARK: Prepare
+"Prepare" = "Förbereda";
+
+"Before setting up Boston, make sure you have the Shortcuts app installed." = "Innan du ställer in Boston, se till att du har Shortcuts-appen installerad.";
+
+"Open Shortcuts in the App Store" = "Öppna Shortcuts i App Store";
+
+//MARK: Connect
+"Connect" = "Anslut";
+
+"Once you've verified Shortcuts is installed, press the button below to add Boston to your Shortcuts." = "När du har verifierat att Shortcuts är installerad, tryck på knappen nedanför för att lägga till Boston i dina Shortcuts.";
+
+"To add Boston to your Shortcuts, click the button below and following the instructions." = "För att lägga till Boston i dina Shortcuts, klicka på knappen nedanför och följ instruktionerna.";
+
+"Add Boston to Your Shortcuts" = "Lägg till Boston i dina Shortcuts";
+
+//MARK: Instructions
+"Instructions" = "Instruktioner";
+
+"Allow 30-seconds for the Siri Shortcut to finish setting up in the background." = "Låt Siri-genvägen ta 30 sekunder för att slutföra inställningen i bakgrunden.";
+
+"Activate Siri by saying 'Hey Siri', or holding down the power button. When Siri is ready, say or type 'Boston'." = "Aktivera Siri genom att säga 'Hey Siri' eller hålla nere strömknappen. När Siri är redo, säg eller skriv 'Boston'.";
+
+"When Siri says 'What would you like to ask Boston?', you are ready to ask anything!" = "När Siri säger 'Vad vill du fråga Boston om?' är du redo att fråga vad som helst!";
+
+//MARK: Contact
+"Contact" = "Kontakt";
+
+"If you are having issues setting up your app, or would like to reach out for any other reason, please send an email to **rayan@waked.dev**" = "Om du har problem med att ställa in din app, eller vill kontakta oss av någon annan anledning, skicka ett e-postmeddelande till rayan@waked.dev";
+
+"Email Developer" = "E-posta utvecklaren";
+
+//MARK: Store
+"Models" = "Modeller";
+
+"Restore Purchases" = "Återställ köp";
+
+"EULA Agreement" = "EULA-avtal";
+
+"Privacy Policy" = "Integritetspolicy";
+
+"Upgrade Boston to get more powerful, personal, and detailed responses." = "Uppgradera Boston för att få mer kraftfulla, personliga och detaljerade svar.";
+
+//MARK: Chat
+"    Ask Boston a question" = "    Ställ en fråga till Boston";
+
+"    Thinking..." = "    Tänkande...";

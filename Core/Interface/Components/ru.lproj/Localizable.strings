@@ -1,0 +1,58 @@
+/*
+  Localizable.strings
+  Boston
+
+  Created by Rayan Waked on 2/27/23.
+  
+*/
+
+//MARK: Name
+"Boston" = "Бостон";
+
+//MARK: Prepare
+"Prepare" = "Подготовка";
+
+"Before setting up Boston, make sure you have the Shortcuts app installed." = "Перед настройкой Бостон убедитесь, что у вас установлено приложение Shortcuts.";
+
+"Open Shortcuts in the App Store" = "Откройте приложение Shortcuts в App Store";
+
+//MARK: Connect
+"Connect" = "Подключение";
+
+"Once you've verified Shortcuts is installed, press the button below to add Boston to your Shortcuts." = "После того, как вы убедились, что у вас установлено приложение Shortcuts, нажмите кнопку ниже, чтобы добавить Бостон в свои ярлыки.";
+
+"To add Boston to your Shortcuts, click the button below and following the instructions." = "Чтобы добавить Бостон в свои ярлыки, нажмите на кнопку ниже и следуйте инструкциям.";
+
+"Add Boston to Your Shortcuts" = "Добавить Boston в свои ярлыки";
+
+//MARK: Instructions
+"Instructions" = "Инструкции";
+
+"Allow 30-seconds for the Siri Shortcut to finish setting up in the background." = "Позвольте 30 секунд для завершения настройки Siri Shortcut в фоновом режиме.";
+
+"Activate Siri by saying 'Hey Siri', or holding down the power button. When Siri is ready, say or type 'Boston'." = "Активируйте Siri, сказав 'Привет, Siri' или удерживая кнопку питания. Когда Siri готова, скажите или введите 'Boston'.";
+
+"When Siri says 'What would you like to ask Boston?', you are ready to ask anything!" = "Когда Siri скажет 'Что вы хотите спросить у Бостон?', вы готовы задать любой вопрос!";
+
+//MARK: Contact
+"Contact" = "Контакты";
+
+"If you are having issues setting up your app, or would like to reach out for any other reason, please send an email to **rayan@waked.dev**" = "Если у вас возникли проблемы с настройкой приложения или вы хотите связаться по другой причине, отправьте письмо на адрес rayan@waked.dev";
+
+"Email Developer" = "Написать разработчику";
+
+//MARK: Store
+"Models" = "Модели";
+
+"Restore Purchases" = "Восстановить покупки";
+
+"EULA Agreement" = "Соглашение EULA";
+
+"Privacy Policy" = "Политика конфиденциальности";
+
+"Upgrade Boston to get more powerful, personal, and detailed responses." = "Обновите Бостон, чтобы получить более мощные, персональные и подробные ответы.";
+
+//MARK: Chat
+"    Ask Boston a question" = "    Задайте вопрос Бостону";
+
+"    Thinking..." = "    Думая......";

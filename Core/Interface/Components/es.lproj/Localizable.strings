@@ -1,0 +1,58 @@
+/*
+  Localizable.strings
+  Boston
+
+  Created by Rayan Waked on 2/27/23.
+  
+*/
+
+//MARK: Name
+"Boston" = "Boston";
+
+//MARK: Prepare
+"Prepare" = "Preparar";
+
+"Before setting up Boston, make sure you have the Shortcuts app installed." = "Antes de configurar Boston, asegúrese de tener instalada la aplicación Shortcuts.";
+
+"Open Shortcuts in the App Store" = "Abrir Shortcuts en la App Store";
+
+//MARK: Connect
+"Connect" = "Conectar";
+
+"Once you've verified Shortcuts is installed, press the button below to add Boston to your Shortcuts." = "Una vez que haya verificado que Shortcuts está instalado, presione el botón a continuación para agregar Boston a sus Shortcuts.";
+
+"To add Boston to your Shortcuts, click the button below and following the instructions." = "Para agregar Boston a sus Shortcuts, haga clic en el botón a continuación y siga las instrucciones.";
+
+"Add Boston to Your Shortcuts" = "Agregar Boston a sus Shortcuts";
+
+//MARK: Instructions
+"Instructions" = "Instrucciones";
+
+"Allow 30-seconds for the Siri Shortcut to finish setting up in the background." = "Espere 30 segundos para que el atajo de Siri termine de configurarse en segundo plano.";
+
+"Activate Siri by saying 'Hey Siri', or holding down the power button. When Siri is ready, say or type 'Boston'." = "Active Siri diciendo 'Oye Siri' o manteniendo presionado el botón de encendido. Cuando Siri esté lista, diga o escriba 'Boston'.";
+
+"When Siri says 'What would you like to ask Boston?', you are ready to ask anything!" = "¡Cuando Siri diga '¿Qué le gustaría preguntar a Boston?', estará listo para preguntar lo que sea!";
+
+//MARK: Contact
+"Contact" = "Contacto";
+
+"If you are having issues setting up your app, or would like to reach out for any other reason, please send an email to **rayan@waked.dev**" = "Si tiene problemas para configurar su aplicación o desea comunicarse por cualquier otro motivo, envíe un correo electrónico a rayan@waked.dev";
+
+"Email Developer" = "Enviar correo electrónico al desarrollador";
+
+//MARK: Store
+"Models" = "Modelos";
+
+"Restore Purchases" = "Restaurar compras";
+
+"EULA Agreement" = "Acuerdo de licencia de usuario final";
+
+"Privacy Policy" = "Política de privacidad";
+
+"Upgrade Boston to get more powerful, personal, and detailed responses." = "Mejora Boston para obtener respuestas más poderosas, personales y detalladas.";
+
+//MARK: Chat
+"    Ask Boston a question" = "    Hazle una pregunta a Boston";
+
+"    Thinking..." = "    Pensamiento...";

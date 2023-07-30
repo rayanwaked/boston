@@ -1,0 +1,6 @@
+/* Bundle display name */
+"CFBundleDisplayName" = "SiriGPT";
+/* Bundle name */
+"CFBundleName" = "SiriGPT";
+/* Copyright (human-readable) */
+"NSHumanReadableCopyright" = "";

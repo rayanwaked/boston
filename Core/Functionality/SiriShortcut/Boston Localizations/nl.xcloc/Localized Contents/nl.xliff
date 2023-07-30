@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="Core/en.lproj/InfoPlist.strings" datatype="plaintext" source-language="en" target-language="nl">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="14.2" build-num="14C18"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleDisplayName" xml:space="preserve">
+        <source>Boston</source>
+        <note>Bundle display name</note>
+      </trans-unit>
+      <trans-unit id="CFBundleName" xml:space="preserve">
+        <source>Boston</source>
+        <note>Bundle name</note>
+      </trans-unit>
+      <trans-unit id="NSSiriUsageDescription" xml:space="preserve">
+        <source>Siri support is used to interface with language learning models and relay its responses to the user</source>
+        <note>Privacy - Siri Usage Description</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Core/Functionality/Base.lproj/Intents.intentdefinition" source-language="en" target-language="nl" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="14.2" build-num="14C18"/>
+    </header>
+    <body>
+      <trans-unit id="1A2r29" xml:space="preserve">
+        <source>Boston</source>
+        <target>Boston</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="2vp5KD" xml:space="preserve">
+        <source>Ask Boston a question</source>
+        <target>Ask Boston a question</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="6BDv6c" xml:space="preserve">
+        <source>${answer}</source>
+        <target>${answer}</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="7jT1tu" xml:space="preserve">
+        <source>Ask Boston a question</source>
+        <target>Ask Boston a question</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Bfwccy" xml:space="preserve">
+        <source>Ask Boston a question</source>
+        <target>Ask Boston a question</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="UPzgNM" xml:space="preserve">
+        <source>Have Boston find answers to your questions</source>
+        <target>Have Boston find answers to your questions</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="UijYZa" xml:space="preserve">
+        <source>Answer</source>
+        <target>Answer</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="fBBE2u" xml:space="preserve">
+        <source>What would you like to ask Boston?</source>
+        <target>Wat zou je Boston willen vragen?</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="mdQ4GO" xml:space="preserve">
+        <source>Sorry, there was an error reaching GPT-3. Please make sure you are subscribed to Boston by checking your active subscritions in the App Store.</source>
+        <target>Sorry, there was an error reaching GPT-3. Please make sure you are subscribed to Boston by checking your active subscritions in the App Store.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="qS7Wcs" xml:space="preserve">
+        <source>Boston</source>
+        <target>Boston</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="sTWCS1" xml:space="preserve">
+        <source>Sorry, there was an error reaching GPT-3. Please make sure you are subscribed to Boston by checking your active subscritions in the App Store.</source>
+        <target>Sorry, there was an error reaching GPT-3. Please make sure you are subscribed to Boston by checking your active subscritions in the App Store.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="vvflbX" xml:space="preserve">
+        <source>${answer}</source>
+        <target>${answer}</target>
+        <note/>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Core/Functionality/SiriGPT/en.lproj/InfoPlist.strings" datatype="plaintext" source-language="en" target-language="nl">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="14.2" build-num="14C18"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleDisplayName" xml:space="preserve">
+        <source>SiriGPT</source>
+        <note>Bundle display name</note>
+      </trans-unit>
+      <trans-unit id="CFBundleName" xml:space="preserve">
+        <source>SiriGPT</source>
+        <note>Bundle name</note>
+      </trans-unit>
+      <trans-unit id="NSHumanReadableCopyright" xml:space="preserve">
+        <source/>
+        <note>Copyright (human-readable)</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

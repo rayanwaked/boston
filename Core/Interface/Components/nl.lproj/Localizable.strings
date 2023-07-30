@@ -1,0 +1,58 @@
+/*
+  Localizable.strings
+  Boston
+
+  Created by Rayan Waked on 2/27/23.
+  
+*/
+
+//MARK: Name
+"Boston" = "Boston";
+
+//MARK: Prepare
+"Prepare" = "Voorbereiden";
+
+"Before setting up Boston, make sure you have the Shortcuts app installed." = "Zorg ervoor dat je de Shortcuts-app hebt geïnstalleerd voordat je Boston instelt.";
+
+"Open Shortcuts in the App Store" = "Open Shortcuts in de App Store";
+
+//MARK: Connect
+"Connect" = "Verbinden";
+
+"Once you've verified Shortcuts is installed, press the button below to add Boston to your Shortcuts." = "Druk op de onderstaande knop om Boston aan je Shortcuts toe te voegen, nadat je hebt gecontroleerd dat de Shortcuts-app is geïnstalleerd.";
+
+"To add Boston to your Shortcuts, click the button below and following the instructions." = "Klik op de onderstaande knop en volg de instructies om Boston aan je Shortcuts toe te voegen.";
+
+"Add Boston to Your Shortcuts" = "Voeg Boston toe aan je Shortcuts";
+
+//MARK: Instructions
+"Instructions" = "Instructies";
+
+"Allow 30-seconds for the Siri Shortcut to finish setting up in the background." = "Geef de Siri-snelkoppeling 30 seconden om in de achtergrond te worden ingesteld.";
+
+"Activate Siri by saying 'Hey Siri', or holding down the power button. When Siri is ready, say or type 'Boston'." = "Activeer Siri door 'Hey Siri' te zeggen of de aan/uit-knop ingedrukt te houden. Wanneer Siri klaar is, zeg of typ dan 'Boston'.";
+
+"When Siri says 'What would you like to ask Boston?', you are ready to ask anything!" = "Als Siri zegt 'Wat wil je aan Boston vragen?', ben je klaar om iets te vragen!";
+
+//MARK: Contact
+"Contact" = "Contact";
+
+"If you are having issues setting up your app, or would like to reach out for any other reason, please send an email to **rayan@waked.dev**" = "Als je problemen hebt met het instellen van je app, of om welke andere reden dan ook contact wilt opnemen, stuur dan een e-mail naar rayan@waked.dev";
+
+"Email Developer" = "E-mail de ontwikkelaar";
+
+//MARK: Store
+"Models" = "Modellen";
+
+"Restore Purchases" = "Aankopen herstellen";
+
+"EULA Agreement" = "Gebruiksrechtovereenkomst";
+
+"Privacy Policy" = "Privacybeleid";
+
+"Upgrade Boston to get more powerful, personal, and detailed responses." = "Upgrade Boston voor krachtigere, persoonlijkere en gedetailleerdere antwoorden.";
+
+//MARK: Chat
+"    Ask Boston a question" = "    Stel een vraag aan Boston";
+
+"    Thinking..." = "    Denken...";

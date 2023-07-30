@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22158.8" systemVersion="23A5301g" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="ConversationBoston" representedClassName="ConversationBoston" syncable="YES" codeGenerationType="class">
+        <attribute name="bostonId" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="bostonOutput" optional="YES" attributeType="String"/>
+        <attribute name="bostonTime" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="ConversationUser" representedClassName="ConversationUser" syncable="YES" codeGenerationType="class">
+        <attribute name="userId" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="userInput" optional="YES" attributeType="String"/>
+        <attribute name="userTime" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+</model>

@@ -1,0 +1,58 @@
+/*
+  Localizable.strings
+  Boston
+
+  Created by Rayan Waked on 2/27/23.
+  
+*/
+
+//MARK: Name
+"Boston" = "波士顿";
+
+//MARK: Prepare
+"Prepare" = "准备";
+
+"Before setting up Boston, make sure you have the Shortcuts app installed." = "在设置波士顿之前，请确保您已安装捷径应用。";
+
+"Open Shortcuts in the App Store" = "在 App Store 中打开捷径";
+
+//MARK: Connect
+"Connect" = "连接";
+
+"Once you've verified Shortcuts is installed, press the button below to add Boston to your Shortcuts." = "确认您已安装了捷径应用后，请按下面的按钮将波士顿添加到您的捷径应用中。";
+
+"To add Boston to your Shortcuts, click the button below and following the instructions." = "要将波士顿添加到您的捷径应用中，请点击下面的按钮并按照说明操作。";
+
+"Add Boston to Your Shortcuts" = "将波士顿添加到您的捷径应用中";
+
+//MARK: Instructions
+"Instructions" = "说明";
+
+"Allow 30-seconds for the Siri Shortcut to finish setting up in the background." = "请给 Siri 捷径留 30 秒的时间，让它在后台完成设置。";
+
+"Activate Siri by saying 'Hey Siri', or holding down the power button. When Siri is ready, say or type 'Boston'." = "通过说 '嘿 Siri' 或长按电源键来激活 Siri。当 Siri 准备好后，请说出或输入 '波士顿'。";
+
+"When Siri says 'What would you like to ask Boston?', you are ready to ask anything!" = "当 Siri 说出 '您想问波士顿什么？' 时，您就可以随意提问了！";
+
+//MARK: Contact
+"Contact" = "联系";
+
+"If you are having issues setting up your app, or would like to reach out for any other reason, please send an email to **rayan@waked.dev**" = "如果您在设置应用时遇到问题或有其他问题需要联系我们，请发送电子邮件至 rayan@waked.dev";
+
+"Email Developer" = "发送电子邮件给开发者";
+
+//MARK: Models
+"Models" = "模型";
+
+"Restore Purchases" = "恢复购买";
+
+"EULA Agreement" = "最终用户许可协议";
+
+"Privacy Policy" = "隐私政策";
+
+"Upgrade Boston to get more powerful, personal, and detailed responses." = "升级波士顿，获得更强大、个性化和详细的回答。";
+
+//MARK: Chat
+"    Ask Boston a question" = "    向波士顿提问";
+
+"    Thinking..." = "    思維...";

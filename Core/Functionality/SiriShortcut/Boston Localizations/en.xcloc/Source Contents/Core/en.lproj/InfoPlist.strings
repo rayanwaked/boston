@@ -1,0 +1,6 @@
+/* Bundle display name */
+"CFBundleDisplayName" = "Boston";
+/* Bundle name */
+"CFBundleName" = "Boston";
+/* Privacy - Siri Usage Description */
+"NSSiriUsageDescription" = "Siri support is used to interface with language learning models and relay its responses to the user";

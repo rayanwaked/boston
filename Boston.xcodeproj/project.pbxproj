@@ -1,0 +1,991 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A102446929B0016C0082ADA9 /* OpenAI in Frameworks */ = {isa = PBXBuildFile; productRef = A102446829B0016C0082ADA9 /* OpenAI */; };
+		A102446B29B001730082ADA9 /* OpenAI in Frameworks */ = {isa = PBXBuildFile; productRef = A102446A29B001730082ADA9 /* OpenAI */; };
+		A10E691329B536EA006084DC /* SubscriptionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10E691229B536EA006084DC /* SubscriptionManager.swift */; };
+		A10E691429B536EA006084DC /* SubscriptionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10E691229B536EA006084DC /* SubscriptionManager.swift */; };
+		A110A64B297A6262006F88FB /* SiriShortcutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A110A64A297A6262006F88FB /* SiriShortcutViewController.swift */; };
+		A110A64F297A630F006F88FB /* SiriShortcutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A110A64E297A630F006F88FB /* SiriShortcutView.swift */; };
+		A111644929C02B0A00CF8FEB /* ChatSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = A111644829C02B0A00CF8FEB /* ChatSetup.swift */; };
+		A111F01929AD652D0080E15E /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = A111F01C29AD652D0080E15E /* Intents.intentdefinition */; };
+		A111F01A29AD652D0080E15E /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = A111F01C29AD652D0080E15E /* Intents.intentdefinition */; };
+		A11F7D5929A5A87E0005AE82 /* ShortcutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A110A64C297A62C4006F88FB /* ShortcutManager.swift */; };
+		A11F7D5A29A5A8800005AE82 /* SiriShortcutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A110A64E297A630F006F88FB /* SiriShortcutView.swift */; };
+		A11F7D5B29A5A8820005AE82 /* SiriShortcutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A110A64A297A6262006F88FB /* SiriShortcutViewController.swift */; };
+		A11F7D5C29A5A89B0005AE82 /* ShortcutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A110A64C297A62C4006F88FB /* ShortcutManager.swift */; };
+		A1201086297A427D0070CD1E /* Intents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1D979AB2979CF4D001A3CDF /* Intents.framework */; };
+		A121EDB929B56E5800D1A282 /* Variables.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C9A47A29B5569E00AA92AE /* Variables.swift */; };
+		A125C3F729A27AC7000AA2A0 /* StoreAdvertisement.swift in Sources */ = {isa = PBXBuildFile; fileRef = A125C3F629A27AC7000AA2A0 /* StoreAdvertisement.swift */; };
+		A125C3FE29A2B188000AA2A0 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A125C3FD29A2B188000AA2A0 /* StoreKit.framework */; };
+		A1305C6929A7D22A0026951F /* Boston.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14721422974871200F26857 /* Boston.swift */; };
+		A13E0B572992DF930019A0C8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13E0B562992DF930019A0C8 /* HomeView.swift */; };
+		A1404C6A29B4FE1F006594E0 /* Products.storekit in Resources */ = {isa = PBXBuildFile; fileRef = A1F45E9229A168CA00EB00EF /* Products.storekit */; };
+		A1404C6B29B4FE22006594E0 /* Products.plist in Resources */ = {isa = PBXBuildFile; fileRef = A1F45E9829A17F4100EB00EF /* Products.plist */; };
+		A14721472974871300F26857 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A14721462974871300F26857 /* Assets.xcassets */; };
+		A1623E4E29A53EF7006DB704 /* StoreListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1623E4D29A53EF7006DB704 /* StoreListCell.swift */; };
+		A1623E5029A53F17006DB704 /* StoreBuyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1623E4F29A53F17006DB704 /* StoreBuyButton.swift */; };
+		A1623E5229A53F43006DB704 /* StoreStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1623E5129A53F43006DB704 /* StoreStatus.swift */; };
+		A1623E5429A5407E006DB704 /* StoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1623E5329A5407E006DB704 /* StoreView.swift */; };
+		A18D321029A18CD000F9D8B4 /* StoreSubscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18D320F29A18CD000F9D8B4 /* StoreSubscription.swift */; };
+		A18D321229A18D2600F9D8B4 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18D321129A18D2600F9D8B4 /* Store.swift */; };
+		A192994F29C1426000C6BE97 /* RequestReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = A192994E29C1426000C6BE97 /* RequestReview.swift */; };
+		A1A6344629ADA0420079690D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A1A6344829ADA0420079690D /* Localizable.strings */; };
+		A1B711F3299F22F800F5C82C /* HomePrepare.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B711F2299F22F800F5C82C /* HomePrepare.swift */; };
+		A1B711F5299F230100F5C82C /* HomeConnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B711F4299F230100F5C82C /* HomeConnect.swift */; };
+		A1B711F7299F230900F5C82C /* HomeInstructions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B711F6299F230900F5C82C /* HomeInstructions.swift */; };
+		A1BC082129A5994B00948C50 /* Handlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D979AE2979CF4D001A3CDF /* Handlers.swift */; };
+		A1C9A47B29B5569E00AA92AE /* Variables.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C9A47A29B5569E00AA92AE /* Variables.swift */; };
+		A1CC1A0129BBF3FC00C30D70 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CC1A0029BBF3FC00C30D70 /* ChatView.swift */; };
+		A1CC1A0329BBF4AD00C30D70 /* ChatUserMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CC1A0229BBF4AD00C30D70 /* ChatUserMessage.swift */; };
+		A1CC1A0529BBF4B600C30D70 /* ChatBostonMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CC1A0429BBF4B600C30D70 /* ChatBostonMessage.swift */; };
+		A1CC1A0729BC0EC600C30D70 /* ChatTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CC1A0629BC0EC600C30D70 /* ChatTextField.swift */; };
+		A1CC1A0E29BC409B00C30D70 /* SwiftUIX in Frameworks */ = {isa = PBXBuildFile; productRef = A1CC1A0D29BC409B00C30D70 /* SwiftUIX */; };
+		A1CC1A1D29BC542900C30D70 /* ChatNavigationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CC1A1C29BC542900C30D70 /* ChatNavigationButton.swift */; };
+		A1D979AF2979CF4D001A3CDF /* Handlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D979AE2979CF4D001A3CDF /* Handlers.swift */; };
+		A1D979C42979CF4E001A3CDF /* SiriGPT.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = A1D979A92979CF4D001A3CDF /* SiriGPT.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A1DB49A5299F4B91007439D4 /* Values.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DB49A4299F4B91007439D4 /* Values.swift */; };
+		A1DB49A8299F4C16007439D4 /* HomeContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DB49A7299F4C16007439D4 /* HomeContact.swift */; };
+		A1EA0DD229BCE74E0033B7D6 /* Conversations.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A1EA0DD029BCE74E0033B7D6 /* Conversations.xcdatamodeld */; };
+		A1EA0DD429BCE7E40033B7D6 /* DatabaseStackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EA0DD329BCE7E40033B7D6 /* DatabaseStackManager.swift */; };
+		A1EA0DF029BD28710033B7D6 /* ChatClearButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EA0DEF29BD28710033B7D6 /* ChatClearButton.swift */; };
+		A1EAA85529A306C60042E48C /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18D321129A18D2600F9D8B4 /* Store.swift */; };
+		A1F45E9329A168CA00EB00EF /* Products.storekit in Resources */ = {isa = PBXBuildFile; fileRef = A1F45E9229A168CA00EB00EF /* Products.storekit */; };
+		A1F45E9929A17F4100EB00EF /* Products.plist in Resources */ = {isa = PBXBuildFile; fileRef = A1F45E9829A17F4100EB00EF /* Products.plist */; };
+		B970AD422A75C478006BE388 /* ChatHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B970AD412A75C478006BE388 /* ChatHandler.swift */; };
+		B970AD442A75C905006BE388 /* ChatClearHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B970AD432A75C905006BE388 /* ChatClearHandler.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1D979C22979CF4E001A3CDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A14721372974871200F26857 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1D979A82979CF4D001A3CDF;
+			remoteInfo = SiriGPT;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A1D979C52979CF4E001A3CDF /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A1D979C42979CF4E001A3CDF /* SiriGPT.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A104BE5E2979F2B100E050E6 /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		A10E691229B536EA006084DC /* SubscriptionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionManager.swift; sourceTree = "<group>"; };
+		A110A64A297A6262006F88FB /* SiriShortcutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiriShortcutViewController.swift; sourceTree = "<group>"; };
+		A110A64C297A62C4006F88FB /* ShortcutManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutManager.swift; sourceTree = "<group>"; };
+		A110A64E297A630F006F88FB /* SiriShortcutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiriShortcutView.swift; sourceTree = "<group>"; };
+		A111644829C02B0A00CF8FEB /* ChatSetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatSetup.swift; sourceTree = "<group>"; };
+		A111F01B29AD652D0080E15E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; name = Base; path = Base.lproj/Intents.intentdefinition; sourceTree = "<group>"; };
+		A111F01E29AD65300080E15E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Intents.strings; sourceTree = "<group>"; };
+		A111F02029AD65310080E15E /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Intents.strings; sourceTree = "<group>"; };
+		A111F02529AD69060080E15E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Intents.strings"; sourceTree = "<group>"; };
+		A111F02629AD690B0080E15E /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/Intents.strings; sourceTree = "<group>"; };
+		A111F02729AD690F0080E15E /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Intents.strings; sourceTree = "<group>"; };
+		A111F02C29AD69290080E15E /* en-AU */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-AU"; path = "en-AU.lproj/Intents.strings"; sourceTree = "<group>"; };
+		A111F02D29AD692C0080E15E /* en-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-IN"; path = "en-IN.lproj/Intents.strings"; sourceTree = "<group>"; };
+		A111F02E29AD692F0080E15E /* en-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB"; path = "en-GB.lproj/Intents.strings"; sourceTree = "<group>"; };
+		A111F03029AD693B0080E15E /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Intents.strings; sourceTree = "<group>"; };
+		A111F03329AD694D0080E15E /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Intents.strings; sourceTree = "<group>"; };
+		A111F03429AD694F0080E15E /* fr-CA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "fr-CA"; path = "fr-CA.lproj/Intents.strings"; sourceTree = "<group>"; };
+		A111F04029AD69880080E15E /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/Intents.strings; sourceTree = "<group>"; };
+		A111F04629AD69990080E15E /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Intents.strings; sourceTree = "<group>"; };
+		A111F04729AD699B0080E15E /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/Intents.strings"; sourceTree = "<group>"; };
+		A111F04829AD699E0080E15E /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Intents.strings; sourceTree = "<group>"; };
+		A125C3F629A27AC7000AA2A0 /* StoreAdvertisement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreAdvertisement.swift; sourceTree = "<group>"; };
+		A125C3FD29A2B188000AA2A0 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		A13123F929A1E8180065A4F7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A13E0B562992DF930019A0C8 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A147213F2974871200F26857 /* Boston.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Boston.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A14721422974871200F26857 /* Boston.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Boston.swift; sourceTree = "<group>"; };
+		A14721462974871300F26857 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1623E4D29A53EF7006DB704 /* StoreListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreListCell.swift; sourceTree = "<group>"; };
+		A1623E4F29A53F17006DB704 /* StoreBuyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreBuyButton.swift; sourceTree = "<group>"; };
+		A1623E5129A53F43006DB704 /* StoreStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreStatus.swift; sourceTree = "<group>"; };
+		A1623E5329A5407E006DB704 /* StoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreView.swift; sourceTree = "<group>"; };
+		A18D320F29A18CD000F9D8B4 /* StoreSubscription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreSubscription.swift; sourceTree = "<group>"; };
+		A18D321129A18D2600F9D8B4 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		A192994E29C1426000C6BE97 /* RequestReview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestReview.swift; sourceTree = "<group>"; };
+		A1A6344729ADA0420079690D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A1A6344929ADA0450079690D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		A1A6344A29ADA04E0079690D /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A1A6344B29ADA04F0079690D /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A1A6344C29ADA04F0079690D /* en-AU */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-AU"; path = "en-AU.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		A1A6344D29ADA0500079690D /* en-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-IN"; path = "en-IN.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		A1A6344E29ADA0510079690D /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A1A6344F29ADA0520079690D /* en-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB"; path = "en-GB.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		A1A6345029ADA0530079690D /* fr-CA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "fr-CA"; path = "fr-CA.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		A1A6345129ADA0540079690D /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A1A6345229ADA0540079690D /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		A1A6345329ADA0550079690D /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A1A6345429ADA0560079690D /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A1A6345629ADA0570079690D /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A1A6345829ADA0580079690D /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A1B711F2299F22F800F5C82C /* HomePrepare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePrepare.swift; sourceTree = "<group>"; };
+		A1B711F4299F230100F5C82C /* HomeConnect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeConnect.swift; sourceTree = "<group>"; };
+		A1B711F6299F230900F5C82C /* HomeInstructions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInstructions.swift; sourceTree = "<group>"; };
+		A1B8537529B1206100755DD5 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/Intents.strings"; sourceTree = "<group>"; };
+		A1B8537629B1206100755DD5 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		A1B8537729B1271D00755DD5 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Intents.strings"; sourceTree = "<group>"; };
+		A1B8537829B1271D00755DD5 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		A1B8DE5329B136A800CDC882 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Intents.strings; sourceTree = "<group>"; };
+		A1B8DE5429B136A800CDC882 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A1C9A47A29B5569E00AA92AE /* Variables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Variables.swift; sourceTree = "<group>"; };
+		A1CC1A0029BBF3FC00C30D70 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		A1CC1A0229BBF4AD00C30D70 /* ChatUserMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatUserMessage.swift; sourceTree = "<group>"; };
+		A1CC1A0429BBF4B600C30D70 /* ChatBostonMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBostonMessage.swift; sourceTree = "<group>"; };
+		A1CC1A0629BC0EC600C30D70 /* ChatTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTextField.swift; sourceTree = "<group>"; };
+		A1CC1A1C29BC542900C30D70 /* ChatNavigationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatNavigationButton.swift; sourceTree = "<group>"; };
+		A1D979A92979CF4D001A3CDF /* SiriGPT.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SiriGPT.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1D979AB2979CF4D001A3CDF /* Intents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intents.framework; path = System/Library/Frameworks/Intents.framework; sourceTree = SDKROOT; };
+		A1D979AE2979CF4D001A3CDF /* Handlers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Handlers.swift; sourceTree = "<group>"; };
+		A1DB49A4299F4B91007439D4 /* Values.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Values.swift; sourceTree = "<group>"; };
+		A1DB49A7299F4C16007439D4 /* HomeContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeContact.swift; sourceTree = "<group>"; };
+		A1EA0DD129BCE74E0033B7D6 /* Conversations.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Conversations.xcdatamodel; sourceTree = "<group>"; };
+		A1EA0DD329BCE7E40033B7D6 /* DatabaseStackManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseStackManager.swift; sourceTree = "<group>"; };
+		A1EA0DEF29BD28710033B7D6 /* ChatClearButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatClearButton.swift; sourceTree = "<group>"; };
+		A1F45E9229A168CA00EB00EF /* Products.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Products.storekit; sourceTree = "<group>"; };
+		A1F45E9829A17F4100EB00EF /* Products.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Products.plist; sourceTree = "<group>"; };
+		B970AD412A75C478006BE388 /* ChatHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatHandler.swift; sourceTree = "<group>"; };
+		B970AD432A75C905006BE388 /* ChatClearHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatClearHandler.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A147213C2974871200F26857 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1CC1A0E29BC409B00C30D70 /* SwiftUIX in Frameworks */,
+				A102446929B0016C0082ADA9 /* OpenAI in Frameworks */,
+				A125C3FE29A2B188000AA2A0 /* StoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1D979A62979CF4D001A3CDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A102446B29B001730082ADA9 /* OpenAI in Frameworks */,
+				A1201086297A427D0070CD1E /* Intents.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A110A650297A6E01006F88FB /* SiriShortcut */ = {
+			isa = PBXGroup;
+			children = (
+				A111F01C29AD652D0080E15E /* Intents.intentdefinition */,
+				A110A64C297A62C4006F88FB /* ShortcutManager.swift */,
+				A110A64A297A6262006F88FB /* SiriShortcutViewController.swift */,
+				A110A64E297A630F006F88FB /* SiriShortcutView.swift */,
+			);
+			path = SiriShortcut;
+			sourceTree = "<group>";
+		};
+		A111644729C02AEA00CF8FEB /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				A111644829C02B0A00CF8FEB /* ChatSetup.swift */,
+				B970AD412A75C478006BE388 /* ChatHandler.swift */,
+				B970AD432A75C905006BE388 /* ChatClearHandler.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		A13123F629A1E6E10065A4F7 /* License */ = {
+			isa = PBXGroup;
+			children = (
+				A13123F929A1E8180065A4F7 /* README.md */,
+			);
+			path = License;
+			sourceTree = "<group>";
+		};
+		A14721362974871200F26857 = {
+			isa = PBXGroup;
+			children = (
+				A1DE9D12298B58920077FA0C /* Core */,
+				A1D979AA2979CF4D001A3CDF /* Frameworks */,
+				A13123F629A1E6E10065A4F7 /* License */,
+				A14721402974871200F26857 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A14721402974871200F26857 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A147213F2974871200F26857 /* Boston.app */,
+				A1D979A92979CF4D001A3CDF /* SiriGPT.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A14721522974E0A000F26857 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				A14BAB722984B03B005EDB79 /* Components */,
+				A14BAB712984B033005EDB79 /* Views */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		A14721552974E0D100F26857 /* Functionality */ = {
+			isa = PBXGroup;
+			children = (
+				A14721422974871200F26857 /* Boston.swift */,
+				A111644729C02AEA00CF8FEB /* Chat */,
+				A1D979AD2979CF4D001A3CDF /* SiriGPT */,
+				A110A650297A6E01006F88FB /* SiriShortcut */,
+				A1F45E9129A1689400EB00EF /* StoreKit */,
+			);
+			path = Functionality;
+			sourceTree = "<group>";
+		};
+		A14BAB712984B033005EDB79 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A1B711EE299F22BC00F5C82C /* Home */,
+				A1CC19FF29BBF3E300C30D70 /* Chat */,
+				A18D320E29A18CC000F9D8B4 /* Store */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A14BAB722984B03B005EDB79 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A14721462974871300F26857 /* Assets.xcassets */,
+				A1A6344829ADA0420079690D /* Localizable.strings */,
+				A1DB49A4299F4B91007439D4 /* Values.swift */,
+			);
+			name = Components;
+			path = ../Interface/Components;
+			sourceTree = "<group>";
+		};
+		A18D320E29A18CC000F9D8B4 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				A1623E5329A5407E006DB704 /* StoreView.swift */,
+				A125C3F629A27AC7000AA2A0 /* StoreAdvertisement.swift */,
+				A18D320F29A18CD000F9D8B4 /* StoreSubscription.swift */,
+				A1623E4D29A53EF7006DB704 /* StoreListCell.swift */,
+				A1623E4F29A53F17006DB704 /* StoreBuyButton.swift */,
+				A1623E5129A53F43006DB704 /* StoreStatus.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		A1B711EE299F22BC00F5C82C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A13E0B562992DF930019A0C8 /* HomeView.swift */,
+				A1B711F2299F22F800F5C82C /* HomePrepare.swift */,
+				A1B711F4299F230100F5C82C /* HomeConnect.swift */,
+				A1B711F6299F230900F5C82C /* HomeInstructions.swift */,
+				A1DB49A7299F4C16007439D4 /* HomeContact.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		A1C9A47129B553CA00AA92AE /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				A1EA0DD029BCE74E0033B7D6 /* Conversations.xcdatamodeld */,
+				A1EA0DD329BCE7E40033B7D6 /* DatabaseStackManager.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		A1CC19FF29BBF3E300C30D70 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				A1CC1A0029BBF3FC00C30D70 /* ChatView.swift */,
+				A1CC1A0229BBF4AD00C30D70 /* ChatUserMessage.swift */,
+				A1CC1A0429BBF4B600C30D70 /* ChatBostonMessage.swift */,
+				A1CC1A0629BC0EC600C30D70 /* ChatTextField.swift */,
+				A1CC1A1C29BC542900C30D70 /* ChatNavigationButton.swift */,
+				A1EA0DEF29BD28710033B7D6 /* ChatClearButton.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		A1D979AA2979CF4D001A3CDF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A125C3FD29A2B188000AA2A0 /* StoreKit.framework */,
+				A1D979AB2979CF4D001A3CDF /* Intents.framework */,
+				A104BE5E2979F2B100E050E6 /* IntentsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1D979AD2979CF4D001A3CDF /* SiriGPT */ = {
+			isa = PBXGroup;
+			children = (
+				A1D979AE2979CF4D001A3CDF /* Handlers.swift */,
+				A10E691229B536EA006084DC /* SubscriptionManager.swift */,
+			);
+			path = SiriGPT;
+			sourceTree = "<group>";
+		};
+		A1DE9D12298B58920077FA0C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A14721522974E0A000F26857 /* Interface */,
+				A14721552974E0D100F26857 /* Functionality */,
+				A1C9A47129B553CA00AA92AE /* Database */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		A1F45E9129A1689400EB00EF /* StoreKit */ = {
+			isa = PBXGroup;
+			children = (
+				A1F45E9229A168CA00EB00EF /* Products.storekit */,
+				A1F45E9829A17F4100EB00EF /* Products.plist */,
+				A18D321129A18D2600F9D8B4 /* Store.swift */,
+				A1C9A47A29B5569E00AA92AE /* Variables.swift */,
+				A192994E29C1426000C6BE97 /* RequestReview.swift */,
+			);
+			path = StoreKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A147213E2974871200F26857 /* Boston */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A147214E2974871300F26857 /* Build configuration list for PBXNativeTarget "Boston" */;
+			buildPhases = (
+				A147213B2974871200F26857 /* Sources */,
+				A147213C2974871200F26857 /* Frameworks */,
+				A147213D2974871200F26857 /* Resources */,
+				A1D979C52979CF4E001A3CDF /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1D979C32979CF4E001A3CDF /* PBXTargetDependency */,
+			);
+			name = Boston;
+			packageProductDependencies = (
+				A102446829B0016C0082ADA9 /* OpenAI */,
+				A1CC1A0D29BC409B00C30D70 /* SwiftUIX */,
+			);
+			productName = Boston;
+			productReference = A147213F2974871200F26857 /* Boston.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1D979A82979CF4D001A3CDF /* SiriGPT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1D979CB2979CF4E001A3CDF /* Build configuration list for PBXNativeTarget "SiriGPT" */;
+			buildPhases = (
+				A1D979A52979CF4D001A3CDF /* Sources */,
+				A1D979A62979CF4D001A3CDF /* Frameworks */,
+				A1D979A72979CF4D001A3CDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SiriGPT;
+			packageProductDependencies = (
+				A102446A29B001730082ADA9 /* OpenAI */,
+			);
+			productName = SiriGPT;
+			productReference = A1D979A92979CF4D001A3CDF /* SiriGPT.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A14721372974871200F26857 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A147213E2974871200F26857 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					A1D979A82979CF4D001A3CDF = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = A147213A2974871200F26857 /* Build configuration list for PBXProject "Boston" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				nl,
+				"zh-Hans",
+				da,
+				fr,
+				"en-AU",
+				"en-IN",
+				"en-GB",
+				ru,
+				de,
+				"fr-CA",
+				nb,
+				es,
+				"es-419",
+				sv,
+				"pt-PT",
+				"pt-BR",
+				ar,
+			);
+			mainGroup = A14721362974871200F26857;
+			packageReferences = (
+				A102446729B0016C0082ADA9 /* XCRemoteSwiftPackageReference "OpenAI" */,
+				A1CC1A0C29BC409B00C30D70 /* XCRemoteSwiftPackageReference "SwiftUIX" */,
+			);
+			productRefGroup = A14721402974871200F26857 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A147213E2974871200F26857 /* Boston */,
+				A1D979A82979CF4D001A3CDF /* SiriGPT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A147213D2974871200F26857 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1F45E9329A168CA00EB00EF /* Products.storekit in Resources */,
+				A1A6344629ADA0420079690D /* Localizable.strings in Resources */,
+				A14721472974871300F26857 /* Assets.xcassets in Resources */,
+				A1F45E9929A17F4100EB00EF /* Products.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1D979A72979CF4D001A3CDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1404C6B29B4FE22006594E0 /* Products.plist in Resources */,
+				A1404C6A29B4FE1F006594E0 /* Products.storekit in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A147213B2974871200F26857 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1EA0DD229BCE74E0033B7D6 /* Conversations.xcdatamodeld in Sources */,
+				A1B711F3299F22F800F5C82C /* HomePrepare.swift in Sources */,
+				A1DB49A5299F4B91007439D4 /* Values.swift in Sources */,
+				A1DB49A8299F4C16007439D4 /* HomeContact.swift in Sources */,
+				A1CC1A0329BBF4AD00C30D70 /* ChatUserMessage.swift in Sources */,
+				A1C9A47B29B5569E00AA92AE /* Variables.swift in Sources */,
+				A1CC1A0129BBF3FC00C30D70 /* ChatView.swift in Sources */,
+				A111644929C02B0A00CF8FEB /* ChatSetup.swift in Sources */,
+				A1623E5229A53F43006DB704 /* StoreStatus.swift in Sources */,
+				A13E0B572992DF930019A0C8 /* HomeView.swift in Sources */,
+				B970AD422A75C478006BE388 /* ChatHandler.swift in Sources */,
+				A1BC082129A5994B00948C50 /* Handlers.swift in Sources */,
+				A111F01929AD652D0080E15E /* Intents.intentdefinition in Sources */,
+				A1EA0DF029BD28710033B7D6 /* ChatClearButton.swift in Sources */,
+				A110A64B297A6262006F88FB /* SiriShortcutViewController.swift in Sources */,
+				A1CC1A1D29BC542900C30D70 /* ChatNavigationButton.swift in Sources */,
+				A1B711F7299F230900F5C82C /* HomeInstructions.swift in Sources */,
+				A18D321229A18D2600F9D8B4 /* Store.swift in Sources */,
+				A1CC1A0529BBF4B600C30D70 /* ChatBostonMessage.swift in Sources */,
+				A1B711F5299F230100F5C82C /* HomeConnect.swift in Sources */,
+				A1305C6929A7D22A0026951F /* Boston.swift in Sources */,
+				B970AD442A75C905006BE388 /* ChatClearHandler.swift in Sources */,
+				A110A64F297A630F006F88FB /* SiriShortcutView.swift in Sources */,
+				A1EA0DD429BCE7E40033B7D6 /* DatabaseStackManager.swift in Sources */,
+				A125C3F729A27AC7000AA2A0 /* StoreAdvertisement.swift in Sources */,
+				A192994F29C1426000C6BE97 /* RequestReview.swift in Sources */,
+				A10E691329B536EA006084DC /* SubscriptionManager.swift in Sources */,
+				A1623E5029A53F17006DB704 /* StoreBuyButton.swift in Sources */,
+				A18D321029A18CD000F9D8B4 /* StoreSubscription.swift in Sources */,
+				A1CC1A0729BC0EC600C30D70 /* ChatTextField.swift in Sources */,
+				A1623E4E29A53EF7006DB704 /* StoreListCell.swift in Sources */,
+				A1623E5429A5407E006DB704 /* StoreView.swift in Sources */,
+				A11F7D5C29A5A89B0005AE82 /* ShortcutManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1D979A52979CF4D001A3CDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A111F01A29AD652D0080E15E /* Intents.intentdefinition in Sources */,
+				A11F7D5929A5A87E0005AE82 /* ShortcutManager.swift in Sources */,
+				A11F7D5A29A5A8800005AE82 /* SiriShortcutView.swift in Sources */,
+				A1D979AF2979CF4D001A3CDF /* Handlers.swift in Sources */,
+				A10E691429B536EA006084DC /* SubscriptionManager.swift in Sources */,
+				A121EDB929B56E5800D1A282 /* Variables.swift in Sources */,
+				A1EAA85529A306C60042E48C /* Store.swift in Sources */,
+				A11F7D5B29A5A8820005AE82 /* SiriShortcutViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1D979C32979CF4E001A3CDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1D979A82979CF4D001A3CDF /* SiriGPT */;
+			targetProxy = A1D979C22979CF4E001A3CDF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A111F01C29AD652D0080E15E /* Intents.intentdefinition */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A111F01B29AD652D0080E15E /* Base */,
+				A111F01E29AD65300080E15E /* en */,
+				A111F02029AD65310080E15E /* nl */,
+				A111F02529AD69060080E15E /* zh-Hans */,
+				A111F02629AD690B0080E15E /* da */,
+				A111F02729AD690F0080E15E /* fr */,
+				A111F02C29AD69290080E15E /* en-AU */,
+				A111F02D29AD692C0080E15E /* en-IN */,
+				A111F02E29AD692F0080E15E /* en-GB */,
+				A111F03029AD693B0080E15E /* ru */,
+				A111F03329AD694D0080E15E /* de */,
+				A111F03429AD694F0080E15E /* fr-CA */,
+				A111F04029AD69880080E15E /* nb */,
+				A111F04629AD69990080E15E /* es */,
+				A111F04729AD699B0080E15E /* es-419 */,
+				A111F04829AD699E0080E15E /* sv */,
+				A1B8537529B1206100755DD5 /* pt-PT */,
+				A1B8537729B1271D00755DD5 /* pt-BR */,
+				A1B8DE5329B136A800CDC882 /* ar */,
+			);
+			name = Intents.intentdefinition;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		A1A6344829ADA0420079690D /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1A6344729ADA0420079690D /* en */,
+				A1A6344929ADA0450079690D /* zh-Hans */,
+				A1A6344A29ADA04E0079690D /* da */,
+				A1A6344B29ADA04F0079690D /* nl */,
+				A1A6344C29ADA04F0079690D /* en-AU */,
+				A1A6344D29ADA0500079690D /* en-IN */,
+				A1A6344E29ADA0510079690D /* fr */,
+				A1A6344F29ADA0520079690D /* en-GB */,
+				A1A6345029ADA0530079690D /* fr-CA */,
+				A1A6345129ADA0540079690D /* sv */,
+				A1A6345229ADA0540079690D /* es-419 */,
+				A1A6345329ADA0550079690D /* es */,
+				A1A6345429ADA0560079690D /* ru */,
+				A1A6345629ADA0570079690D /* nb */,
+				A1A6345829ADA0580079690D /* de */,
+				A1B8537629B1206100755DD5 /* pt-PT */,
+				A1B8537829B1271D00755DD5 /* pt-BR */,
+				A1B8DE5429B136A800CDC882 /* ar */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A147214C2974871300F26857 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A147214D2974871300F26857 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A147214F2974871300F26857 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = Core/Foundation/Boston.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 6R2E9P9EPV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Core/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Boston;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSSiriUsageDescription = "Siri support is used to interface with language learning models and relay its responses to the user";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.9;
+				PRODUCT_BUNDLE_IDENTIFIER = Waked.Boston;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A14721502974871300F26857 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = Core/Foundation/Boston.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 6R2E9P9EPV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Core/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Boston;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSSiriUsageDescription = "Siri support is used to interface with language learning models and relay its responses to the user";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.9;
+				PRODUCT_BUNDLE_IDENTIFIER = Waked.Boston;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A1D979C62979CF4E001A3CDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Core/Functionality/SiriGPT/SiriGPT.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6R2E9P9EPV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Core/Functionality/SiriGPT/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SiriGPT;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.9;
+				PRODUCT_BUNDLE_IDENTIFIER = Waked.Boston.SiriGPT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1D979C72979CF4E001A3CDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Core/Functionality/SiriGPT/SiriGPT.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6R2E9P9EPV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Core/Functionality/SiriGPT/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SiriGPT;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.9;
+				PRODUCT_BUNDLE_IDENTIFIER = Waked.Boston.SiriGPT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A147213A2974871200F26857 /* Build configuration list for PBXProject "Boston" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A147214C2974871300F26857 /* Debug */,
+				A147214D2974871300F26857 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A147214E2974871300F26857 /* Build configuration list for PBXNativeTarget "Boston" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A147214F2974871300F26857 /* Debug */,
+				A14721502974871300F26857 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1D979CB2979CF4E001A3CDF /* Build configuration list for PBXNativeTarget "SiriGPT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1D979C62979CF4E001A3CDF /* Debug */,
+				A1D979C72979CF4E001A3CDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A102446729B0016C0082ADA9 /* XCRemoteSwiftPackageReference "OpenAI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MacPaw/OpenAI";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		A1CC1A0C29BC409B00C30D70 /* XCRemoteSwiftPackageReference "SwiftUIX" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftUIX/SwiftUIX.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A102446829B0016C0082ADA9 /* OpenAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A102446729B0016C0082ADA9 /* XCRemoteSwiftPackageReference "OpenAI" */;
+			productName = OpenAI;
+		};
+		A102446A29B001730082ADA9 /* OpenAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A102446729B0016C0082ADA9 /* XCRemoteSwiftPackageReference "OpenAI" */;
+			productName = OpenAI;
+		};
+		A1CC1A0D29BC409B00C30D70 /* SwiftUIX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A1CC1A0C29BC409B00C30D70 /* XCRemoteSwiftPackageReference "SwiftUIX" */;
+			productName = SwiftUIX;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		A1EA0DD029BCE74E0033B7D6 /* Conversations.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A1EA0DD129BCE74E0033B7D6 /* Conversations.xcdatamodel */,
+			);
+			currentVersion = A1EA0DD129BCE74E0033B7D6 /* Conversations.xcdatamodel */;
+			path = Conversations.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A14721372974871200F26857 /* Project object */;
+}
