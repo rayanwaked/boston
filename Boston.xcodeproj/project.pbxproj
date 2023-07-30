@@ -223,6 +223,7 @@
 			isa = PBXGroup;
 			children = (
 				A1DE9D12298B58920077FA0C /* Core */,
+				B978FCC52A76EAE300BCDFEE /* Extension */,
 				A1D979AA2979CF4D001A3CDF /* Frameworks */,
 				A13123F629A1E6E10065A4F7 /* License */,
 				A14721402974871200F26857 /* Products */,
@@ -252,7 +253,6 @@
 			children = (
 				A14721422974871200F26857 /* Boston.swift */,
 				A111644729C02AEA00CF8FEB /* Chat */,
-				A1D979AD2979CF4D001A3CDF /* SiriGPT */,
 				A110A650297A6E01006F88FB /* SiriShortcut */,
 				A1F45E9129A1689400EB00EF /* StoreKit */,
 			);
@@ -337,13 +337,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A1D979AD2979CF4D001A3CDF /* SiriGPT */ = {
+		A1D979AD2979CF4D001A3CDF /* Siri */ = {
 			isa = PBXGroup;
 			children = (
 				A1D979AE2979CF4D001A3CDF /* Handlers.swift */,
 				A10E691229B536EA006084DC /* SubscriptionManager.swift */,
 			);
-			path = SiriGPT;
+			path = Siri;
 			sourceTree = "<group>";
 		};
 		A1DE9D12298B58920077FA0C /* Core */ = {
@@ -366,6 +366,14 @@
 				A192994E29C1426000C6BE97 /* RequestReview.swift */,
 			);
 			path = StoreKit;
+			sourceTree = "<group>";
+		};
+		B978FCC52A76EAE300BCDFEE /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A1D979AD2979CF4D001A3CDF /* Siri */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -843,13 +851,13 @@
 		A1D979C62979CF4E001A3CDF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = Core/Functionality/SiriGPT/SiriGPT.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Extension/Siri/SiriGPT.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6R2E9P9EPV;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Core/Functionality/SiriGPT/Info.plist;
+				INFOPLIST_FILE = Extension/Siri/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = SiriGPT;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -875,13 +883,13 @@
 		A1D979C72979CF4E001A3CDF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = Core/Functionality/SiriGPT/SiriGPT.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Extension/Siri/SiriGPT.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6R2E9P9EPV;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Core/Functionality/SiriGPT/Info.plist;
+				INFOPLIST_FILE = Extension/Siri/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = SiriGPT;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";

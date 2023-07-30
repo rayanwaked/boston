@@ -22,7 +22,7 @@ class IntentHandler: INExtension {
 
 //MARK: PromptIntentHandler (API)
 class PromptIntentHandler: NSObject, PromptIntentHandling {
-    // Update "REDACTED" with your OpenAI API key.
+    // Update "SK-YOUR-API-KEY" with your OpenAI API key.
     let openAI = OpenAI(apiToken: "SK-YOUR-API-KEY")
     var tokenAmount = 200
     
@@ -45,7 +45,7 @@ class PromptIntentHandler: NSObject, PromptIntentHandling {
         let modelType = groupUserDefaults?.object(forKey: "Key") as? String
         print(groupUserDefaults?.object(forKey: "Key") as Any)
         
-        // Determine modelType and tokenAmount
+        //MARK: Determine modelType and tokenAmount
         switch modelType {
         case "Plus":
             tokenAmount = 500
