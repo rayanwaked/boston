@@ -33,7 +33,7 @@ Easily access OpenAI's advanced LLM anywhere through Siri.
 
 ## Features
 
-A few of the things you can do with GitPoint:
+A few of the things you can do:
 
 * Access OpenAI LLMs through Siri
 * Chat in-app and view message history
