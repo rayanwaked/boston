@@ -5,9 +5,11 @@
 //  Created by Rayan Waked on 7/29/23.
 //
 
+// MARK: - IMPORT
 import SwiftUI
 import CoreData
 
+// MARK: - CORE DATA CLEANER
 class CoreDataClearer {
     func clearCoreData(moc: NSManagedObjectContext, shouldReload: Binding<Bool>) {
         let entityNames = ["ConversationUser", "ConversationBoston"]

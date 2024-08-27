@@ -5,8 +5,10 @@
 //  Created by Rayan Waked on 3/11/23.
 //
 
+// MARK: - IMPORT
 import CoreData
 
+// MARK: - DATA CONTROLLER
 class DataController: ObservableObject {
     static let shared = DataController()
     let container = NSPersistentContainer(name: "Conversations")

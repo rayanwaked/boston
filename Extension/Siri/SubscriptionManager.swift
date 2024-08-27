@@ -5,8 +5,10 @@
 //  Created by Rayan Waked on 3/5/23.
 //
 
+// MARK: - IMPORT
 import StoreKit
 
+// MARK: - SUBSCRIPTION MANAGER
 struct SubscriptionManager {
     var store: Store
     var currentSubscription: Product?

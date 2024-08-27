@@ -5,12 +5,13 @@
 //  Created by Rayan Waked on 1/19/23.
 //
 
+// MARK: - IMPORT
 import Foundation
 import Intents
 import OpenAI
 import StoreKit
 
-//MARK: IntentHandler
+//MARK: INTENT HANDLER
 class IntentHandler: INExtension {
     override func handler(for intent: INIntent) -> Any {
         guard intent is PromptIntent else {
@@ -20,13 +21,13 @@ class IntentHandler: INExtension {
     }
 }
 
-//MARK: PromptIntentHandler (API)
+//MARK: PROMPT INTENT HANDLER (API)
 class PromptIntentHandler: NSObject, PromptIntentHandling {
     // Update "SK-YOUR-API-KEY" with your OpenAI API key.
     let openAI = OpenAI(apiToken: "SK-YOUR-API-KEY")
     var tokenAmount = 200
     
-    //MARK: Set Model Type Based On Subscription
+    //MARK: SET MODEL TYPE FROM SUBSCRIPTION
     func setModelType() -> Model {
         // Async: Pull data from UserDefaults, update it, update variables
         Task {
@@ -45,7 +46,7 @@ class PromptIntentHandler: NSObject, PromptIntentHandling {
         let modelType = groupUserDefaults?.object(forKey: "Key") as? String
         print(groupUserDefaults?.object(forKey: "Key") as Any)
         
-        //MARK: Determine modelType and tokenAmount
+        //MARK: DETERMINE MODELS
         switch modelType {
         case "Plus":
             tokenAmount = 500
@@ -65,7 +66,7 @@ class PromptIntentHandler: NSObject, PromptIntentHandling {
         }
     }
 
-    //MARK: Pass Intent Query to OpenAI API
+    //MARK: PASS INTENT QUERY TO OPENAI
     func handle(intent: PromptIntent, completion: @escaping (PromptIntentResponse) -> Void) {
         if setModelType() == .curie {
             openAI.completions(query: .init(
@@ -108,7 +109,7 @@ class PromptIntentHandler: NSObject, PromptIntentHandling {
         }
     }
     
-    //MARK: Resolve Errors
+    //MARK: RESOLVE ERRORS
     func resolveQuery(for intent: PromptIntent, with completion: @escaping (INStringResolutionResult) -> Void) {
         if intent.query == nil || intent.query!.isEmpty {
             completion(INStringResolutionResult.needsValue())

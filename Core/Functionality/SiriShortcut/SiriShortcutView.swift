@@ -5,11 +5,13 @@
 //  Created by Rayan Waked on 1/19/23.
 //
 
+// MARK: - IMPORT
 import SwiftUI
 import UIKit
 import Intents
 import IntentsUI
 
+// MARK: - SHORTCUT SWIFTUI WRAPPER
 class SiriShortcutViewController: UIViewController {
     var shortcut: ShortcutManager.Shortcut?
     

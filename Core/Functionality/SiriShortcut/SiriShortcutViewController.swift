@@ -5,9 +5,11 @@
 //  Created by Rayan Waked on 1/19/23.
 //
 
+// MARK: - IMPORT
 import Intents
 import IntentsUI
 
+// MARK: - SHORTCUT VIEW CONTROLLER
 extension SiriShortcutViewController: INUIAddVoiceShortcutViewControllerDelegate {
     func addVoiceShortcutViewController(_ controller: INUIAddVoiceShortcutViewController, didFinishWith voiceShortcut: INVoiceShortcut?, error: Error?) {
         controller.dismiss(animated: true, completion: nil)

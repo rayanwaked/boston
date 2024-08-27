@@ -5,16 +5,18 @@
 //  Created by Rayan Waked on 7/29/23.
 //
 
+// MARK: - IMPORT
 import OpenAI
 import StoreKit
 import CoreData
 import SwiftUI
 
+// MARK: - CHAT FUNCTIONALITY
 class ChatFunctionality {
     // Update "SK-YOUR-API-KEY" with your OpenAI API key.
     let openAI = OpenAI(apiToken: "SK-YOUR-API-KEY")
     
-    //MARK: Set Model Type Based On Subscription
+    //MARK: SET MODEL TYPE FROM SUBSCRIPTION
     func setModelType() -> Model {
         // Async: Pull data from UserDefaults, update it, update variables
         Task {
@@ -59,7 +61,7 @@ class ChatFunctionality {
         }
     }
     
-    //MARK: Save user question
+    //MARK: SAVE USER QUESTION
     func saveQuestion(moc: NSManagedObjectContext, passQuery: String) {
         let user = ConversationUser(context: moc)
         user.userId = user.userId + 1 // Assign a unique ID to the user
@@ -68,7 +70,7 @@ class ChatFunctionality {
         try? moc.save()
     }
     
-    //MARK: Process and save Boston response
+    //MARK: PROCESS AND SAVE RESPONSE
     func askBoston(moc: NSManagedObjectContext, passQuery: String, isAskingBoston: Binding<Bool>, completion: @escaping (String?) -> Void) {
         let modelType = setModelType()
         let tokenAmount = tokenAmount()

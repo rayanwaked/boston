@@ -5,14 +5,17 @@
 //  Created by Rayan Waked on 1/15/23.
 //
 
+// MARK: - IMPORT
 import SwiftUI
 import Intents
 import OpenAI
 
+// MARK: - APP STORAGE
 class FirstLaunch: ObservableObject {
     @AppStorage("isFirstLaunch") var isFirstLaunch = true
 }
 
+// MARK: - MAIN
 @main
 struct BostonApp: App {
     @StateObject var firstLaunch = FirstLaunch()

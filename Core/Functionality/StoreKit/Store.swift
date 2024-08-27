@@ -5,17 +5,21 @@
 //  Created by Rayan Waked on 2/18/23.
 //
 
+// MARK: - IMPORT
 import Foundation
 import StoreKit
 
+// MARK: - TYPEALIAS
 typealias Transaction = StoreKit.Transaction
 typealias RenewalInfo = StoreKit.Product.SubscriptionInfo.RenewalInfo
 typealias RenewalState = StoreKit.Product.SubscriptionInfo.RenewalState
 
+// MARK: - STORE ERROR ENUM
 public enum StoreError: Error {
     case failedVerification
 }
 
+// MARK: - SUBSCRIPTION TIERS
 //Define our app's subscription tiers by level of service, in ascending order.
 public enum SubscriptionTier: Int, Comparable {
     case none = 0
@@ -29,6 +33,7 @@ public enum SubscriptionTier: Int, Comparable {
     }
 }
 
+// MARK: - STOREKIT DATA
 class Store: ObservableObject {
 
     @Published private(set) var subscriptions: [Product]

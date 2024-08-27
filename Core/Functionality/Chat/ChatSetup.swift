@@ -5,10 +5,12 @@
 //  Created by Rayan Waked on 3/13/23.
 //
 
+// MARK: - IMPORT
 import SwiftUI
 import CoreData
 
-struct ChatSetup: View {    
+// MARK: - CHAT SETUP
+struct ChatSetup: View {
     @Environment(\.managedObjectContext) var moc
     @FetchRequest(entity: ConversationUser.entity(), sortDescriptors: [NSSortDescriptor(keyPath: \ConversationUser.userTime, ascending: false)])
     var conversationsUser: FetchedResults<ConversationUser>

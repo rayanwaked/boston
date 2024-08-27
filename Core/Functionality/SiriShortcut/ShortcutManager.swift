@@ -5,8 +5,10 @@
 //  Created by Rayan Waked on 1/19/23.
 //
 
+// MARK: - IMPORT
 import Intents
 
+// MARK: - SHORTCUT MANAGER
 @available(iOS 12.0, *)
 public final class ShortcutManager {
     

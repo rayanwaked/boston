@@ -1,6 +1,6 @@
 # END USER LICENSE AGREEMENT ("EULA")
 
-**IMPORTANT - READ CAREFULLY:** This End User License Agreement ("EULA") is a legal agreement between you (either an individual or a single entity) and [Rayan Nimer Waked] ("Developer") for the use of the software product that accompanies this EULA, which includes computer software and may include associated media, printed materials, and "online" or electronic documentation ("Software Product").
+**IMPORTANT - READ CAREFULLY:** This End User License Agreement ("EULA") is a legal agreement between you (either an individual or a single entity) and [Rayan Waked] ("Developer") for the use of the software product that accompanies this EULA, which includes computer software and may include associated media, printed materials, and "online" or electronic documentation ("Software Product").
 
 BY INSTALLING, COPYING, OR OTHERWISE USING THE SOFTWARE PRODUCT, YOU AGREE TO BE BOUND BY THE TERMS OF THIS EULA. IF YOU DO NOT AGREE TO THE TERMS OF THIS EULA, DO NOT INSTALL OR USE THE SOFTWARE PRODUCT.
 
